@@ -18,7 +18,6 @@ This project is designed as a **learning playground** for building command-line 
 
 ## 🚀 Getting Started
 
-1. Clone the repository
 ```bash
 git clone https://github.com/cyberm0nk/tbot.git
 cd tbot
