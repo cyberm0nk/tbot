@@ -18,23 +18,23 @@ This project is designed as a **learning playground** for building command-line 
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+1. Clone the repository
 ```bash
 git clone https://github.com/cyberm0nk/tbot.git
 cd tbot
 
-### 2. Install dependencies
+2. Install dependencies
 ```bash
 go mod tidy
 
-### 3. Build the bot
+3. Build the bot
 ```bash
 go build -ldflags "-X github.com/cyberm0nk/tbot/cmd.appVersion=v1.0.2"
 
-### 4. Export your Telegram token
+4. Export your Telegram token
 ```bash
 export TELE_TOKEN="your-telegram-bot-token"
 
-### 5. Run the bot
+5. Run the bot
 ```bash
 ./tbot start
